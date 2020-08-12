@@ -1,0 +1,16 @@
+.Pokedex {
+    font-family: monospace;
+}
+
+.Pokedex-Header {
+    display: flex;
+    color: grey;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Pokedex-Content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
