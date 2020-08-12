@@ -4,7 +4,6 @@
 
 .Pokedex-Header {
     display: flex;
-    color: grey;
     align-items: center;
     flex-direction: column;
 }

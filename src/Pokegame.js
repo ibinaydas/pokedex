@@ -24,7 +24,7 @@ class Pokegame extends React.Component {
         const firstHandExp = firstHand.reduce((x, y) => x + y.base_experience, 0);
         const secondHandExp = secondHand.reduce((x, y) => x + y.base_experience, 0);
         return (
-            <div className="Pokegame">
+            <div className='Pokegame'>
                 <Pokedex pokemonList={firstHand} totalExp={firstHandExp} isWinner={firstHandExp > secondHandExp} />
                 <hr />
                 <Pokedex pokemonList={secondHand} totalExp={secondHandExp} isWinner={secondHandExp > firstHandExp} />

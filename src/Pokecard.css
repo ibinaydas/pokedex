@@ -14,10 +14,10 @@
 }
 
 .Pokecard-Footer {
+    margin: 1rem 0;
     display: flex;
     font-size: 14px;
     align-items: center;
-    margin-bottom: 1rem;
     flex-direction: column;
     text-transform: capitalize;
 }

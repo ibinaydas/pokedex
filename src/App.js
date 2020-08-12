@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div data-testid="app" className="App">
+    <div data-testid='app' className='App'>
       <Pokegame />
     </div>
   );
